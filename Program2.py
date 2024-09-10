@@ -50,8 +50,9 @@
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
 
-
-
+name= input("What is your name?")
+print(name)
+print(name)
 
 
 ## Problem 2 ##
@@ -60,6 +61,8 @@
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
 
+name= input("What is your name?")
+print("!"+ name +"!" + name + "!")
 
 ## Problem 3 ##
 #Please write a script that: 
@@ -71,11 +74,24 @@
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
 
+firstname= input("What is your First name?")
+lastname= input("What is your Last name?")
+address= input("What is your address?")
+cityandpostalcode= input("What is your city and postal code?")
+print("First Name: " + firstname)
+print("Last Name: " + lastname)
+print("Street address: " + address)
+print("City and postal code:" + cityandpostalcode)
+
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
 
+word1= input("What is one word?")
+word2= input("What is another word?")
+word3= input("Give me one more?")
+print(word1 + "-" + word2 + "-" + word3)
 
 ## Problem 5 ##
 #Please write a script that: 
@@ -88,3 +104,7 @@
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
+
+name= input("What is your name?")
+year= input("Give me a year?")
+print( name + " is a princess, born in "+ year + ". \nIn 2 months "+ name + " was about to be crowned queen. \nShe knows that its going to be a very demanding role.")
